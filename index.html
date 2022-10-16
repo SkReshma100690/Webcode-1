@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcode-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- div to display page heading -->
+    <div id="page_heading_div"></div>
+    <!-- divs to display some messages -->
+    <ul type=".">
+        <li><div id="loading-message-div"></div></li>
+        <li><div id="book-characters-direction-div"></div></li>
+        <li><div id="serach-instruction-div"></div></li>
+        <li><div id="pagination-instruction-div"></div></li>
+    </ul>
+    <!-- headind tag to display error messages given by try-catch method -->
+    <h3 id="tryCatch_errorMessage_div"></h3>
+    <!-- search field, reset, and submit buttons -->
+    <div id="search_and_button_div">
+        <input type="search" id="search_bar_input">
+        <input type="reset" id="reset_button">
+        <button type='submit' id="search_button_id">Search</button>
+    </div>
+
+    <!-- multiple divs (for multiple pages) and tables -->
+    <div id="main-div-containing-pages">
+        <div class="table-responsive" id="tab-div-1">
+            <table class="table" id="table-tab-1"></table>
+        </div>
+        <div class="table-responsive" id="tab-div-2">
+            <table class="table" id="table-tab-2"></table>
+        </div>
+        <div class="table-responsive" id="tab-div-3">
+            <table class="table" id="table-tab-3"></table>
+        </div>
+        <div class="table-responsive" id="tab-div-4">
+            <table class="table" id="table-tab-4"></table>
+        </div>
+        <div class="table-responsive" id="tab-div-5">
+            <table class="table" id="table-tab-5"></table>
+        </div>
+    </div>
+    <!-- div for pagination buttons -->
+ <div id="pagination-buttons-div">
+    <a class="page-link" href="#">Prev</a>
+    <a class="page-link" href="#table-tab-1">1</a>
+    <a class="page-link" href="#table-tab-2">2</a>
+    <a class="page-link" href="#table-tab-3">3</a>
+    <a class="page-link" href="#table-tab-4">4</a>
+    <a class="page-link" href="#table-tab-5">5</a>
+    <a class="page-link" href="#">Next</a> 
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    border-radius: 5px;
+}
+
+#page_heading_div{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#search_and_button_div{
+    width:100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#search_bar_input,#search_button_id,#reset_button{
+    font-size:12px;
+    margin-top:0px;
+}
+
+#loading-message-div{
+    font-size:12px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+#serach-instruction-div,#pagination-instruction-div,#book-characters-direction-div{
+    font-size:12px;
+    margin-bottom:0px;
+}
+
+#pagination-buttons-div{
+    display:flex;
+    width:100%;
+    justify-content: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a{
+text-decoration-line: none;
+}
+
+.character-details-div{
+    display:flex;
+    flex-direction: column;
+}
+.ith-character-div{
+    display:flex;
+    flex-direction: row;
+}
+
+td{
+    border:1px solid darkgreen;
+    padding:10px;
+}
+
+.bookName-div, .isbn-div, .numOfPages-div, .authors-div, .publisher-div, .releasedDate-div{
+    margin:5px;
+    font-family: Courier;
+    font-weight:bold;
+    font-style:italic;
+    color:blue;
+}
+
+span{
+    font-style:normal;
+    color:black;
+}
+
+.char-index-div,.character-details-div{
+    margin:5px;
+    font-style:italic;
+    color:blue;
+}
+
+.character-heading-div{
+    font-style:italic;
+    font-weight: bold;
+    color:darkgreen;
+    font-size: large;
+    text-align:center;
+}
+
+.table{
+    width: 100%;
+    border-collapse:separate;
+    border-spacing:10px;    
+}
+
+.char-name-div,.char-gender-div,.char-playedBy-div{
+    padding:5px;
+    font-size:15px;
+    margin:0px;
+}
+
+.active{
+    background-color:darkblue;
+    color:white;
+    font-weight:bold;
+}
+
+#pagination-buttons-div>a{
+    font-size:15px;
+    border:1px solid blue;
+    padding:10px;
+    height:20px;
+    width:30px;
+    text-align:center;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#reset_button:hover{
+    cursor:pointer;
+}
