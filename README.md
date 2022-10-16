@@ -1,4 +1,5 @@
 # Webcode-1
+The width of the table is set as 100% for making it RESPONSIVE when it is opened in mobile.
 Used search filter, pagination, and displayed 10 characters from each book. 
 as only 10 books are available in the API they are displayed.
 2 books are diplayed per page.
